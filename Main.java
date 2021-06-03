@@ -20,7 +20,7 @@ import java.util.Scanner;
  			
  Author		박준영,  유승원
  
- Version	1.0.0
+ Version	1.0.1
  */
 public class Main {
 	public static void main(String[] args) {
@@ -28,6 +28,9 @@ public class Main {
 		ShoesData sd = new ShoesData();
 		JSONParser parser = new JSONParser();
 		JSONObject jsonObject = new JSONObject();
+		String sName = "";
+		String sPrice = "";
+		String sClassification = "";
 		
 		System.out.println("-------------------------");
 		System.out.println("     1. 상품 정보 추가");
