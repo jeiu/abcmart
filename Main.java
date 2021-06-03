@@ -1,4 +1,9 @@
-package abcmart;
+/* time : 12:20
+ * author : 유승원
+ * how : 전체적인 동작을 나타내는 가시적 메인 클래스
+ */
+
+package shoesMall;
 
 import java.io.FileWriter;
 import java.io.FileReader;
@@ -20,17 +25,20 @@ public class Main {
 		
 		int select = scan.nextInt();
 		
-		switch(select) {
-			case 1: //상품 정보 추가
-				//sd.input();
-				break;
-			case 2: //상품 정보 조회
+		while(true) {
+			switch(select) {
+				case 1: //상품 정보 추가
+					sd.input();
+					break;
+				case 2: //상품 정보 조회
+					sd.lookup();
+				case 3: //상품 정보 수정
+					
+				case 4: //매출 정보 조회
 				
-			case 3: //상품 정보 수정
-			
-			case 4: //매출 정보 조회
-			
-			default: 			
+				default:
+					
+			}
 		}
 	}
 }
