@@ -7,5 +7,5 @@ package shoesMall;
 public class ShoesObject {
 	String sName;
 	int sPrice;
-
+	int sNumber;
 }
